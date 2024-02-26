@@ -6,8 +6,8 @@ const nextConfig = {
     unoptimized: true,
   },
   output: "export",
-  assetPrefix: `/${REPO_NAME}/`,
-  basePath: `/${REPO_NAME}`,
+  assetPrefix: process.env.GITHUB_ACTIONS &&`/${REPO_NAME}/`,
+  basePath: process.env.GITHUB_ACTIONS &&`/${REPO_NAME}`,
   trailingSlash: true,
 };
 
