@@ -40,3 +40,4 @@ bun.lockb
 
 .env
 tsconfig.tsbuildinfo
+stotybook-static

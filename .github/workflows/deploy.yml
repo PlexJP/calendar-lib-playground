@@ -30,14 +30,11 @@ jobs:
       - name: Install dependencies
         run: yarn install
 
-      - name: linter
-        run: yarn lint
-        
-      - name: Build
-        run: yarn build
+      - name: Build storybook
+        run: yarn build-storybook
 
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./out
+          publish_dir: stotybook-static
