@@ -1,12 +1,13 @@
-import type { Preview } from "@storybook/react";
-import '@fontsource/roboto/300.css';
-import '@fontsource/roboto/400.css';
-import '@fontsource/roboto/500.css';
-import '@fontsource/roboto/700.css';
-import '@fontsource/material-icons';
-import { CssBaseline, ThemeProvider } from '@mui/material';
-import { withThemeFromJSXProvider } from '@storybook/addon-themes';
-import { theme } from '../src/lib/mui';
+import '@fontsource/material-icons'
+import '@fontsource/roboto/300.css'
+import '@fontsource/roboto/400.css'
+import '@fontsource/roboto/500.css'
+import '@fontsource/roboto/700.css'
+import { CssBaseline, ThemeProvider } from '@mui/material'
+import '@progress/kendo-theme-material/dist/all.css'
+import { withThemeFromJSXProvider } from '@storybook/addon-themes'
+import type { Preview } from '@storybook/react'
+import { theme } from '../src/lib/mui'
 
 export const decorators = [
   withThemeFromJSXProvider({
@@ -17,13 +18,13 @@ export const decorators = [
     defaultTheme: 'light',
     Provider: ThemeProvider,
     GlobalStyles: CssBaseline,
-  })];
-
+  }),
+]
 
 const preview: Preview = {
   decorators,
   parameters: {
-    actions: { argTypesRegex: "^on[A-Z].*" },
+    actions: { argTypesRegex: '^on[A-Z].*' },
     controls: {
       expanded: true,
       matchers: {
@@ -32,6 +33,6 @@ const preview: Preview = {
       },
     },
   },
-};
+}
 
-export default preview;
+export default preview
