@@ -37,3 +37,6 @@ yarn-error.log*
 .idea
 
 bun.lockb
+
+.env
+tsconfig.tsbuildinfo
