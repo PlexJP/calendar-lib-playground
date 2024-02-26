@@ -8,6 +8,7 @@ const nextConfig = {
   output: "export",
   assetPrefix: `/${REPO_NAME}/`,
   basePath: `/${REPO_NAME}`,
+  trailingSlash: true,
 };
 
 export default nextConfig;
