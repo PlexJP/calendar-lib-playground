@@ -19,7 +19,7 @@
     },
     "formatter": {
       "quoteStyle": "single",
-      "jsxQuoteStyle": "single",
+      "jsxQuoteStyle": "double",
       "trailingComma": "all",
       "semicolons": "asNeeded",
       "arrowParentheses": "asNeeded"
@@ -37,10 +37,7 @@
   "linter": {
     "ignore": [".next", "node_modules", "out"],
     "rules": {
-      "all": true,
-      "nursery": {
-        "noDefaultExport": "off"
-      }
+      "all": true
     }
   }
 }
