@@ -1,14 +1,14 @@
+import { Button } from '@/stories/components/MUI/Button/index'
 import type { Meta, StoryObj } from '@storybook/react'
-import { MUIButton } from '@/stories/components/MUI/MUIButton/index'
 
 const meta = {
-  title: 'MUI/MUIButton',
-  component: MUIButton,
+  title: 'MUI/Button',
+  component: Button,
   tags: ['autodocs'],
   parameters: {
     layout: 'fullscreen',
   },
-} satisfies Meta<typeof MUIButton>
+} satisfies Meta<typeof Button>
 
 export default meta
 type Story = StoryObj<typeof meta>
