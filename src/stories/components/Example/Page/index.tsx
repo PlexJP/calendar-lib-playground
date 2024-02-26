@@ -68,8 +68,7 @@ export const Page: React.FC = () => {
         </p>
         <div className="tip-wrapper">
           <span className="tip">Tip</span> Adjust the width of the canvas with
-          the{' '}
-          Viewports addon in the toolbar
+          the Viewports addon in the toolbar
         </div>
       </section>
     </article>
