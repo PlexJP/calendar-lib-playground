@@ -1,10 +1,13 @@
+const REPO_NAME = "calendar-lib-playground";
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   reactStrictMode: true,
   images: {
     unoptimized: true,
   },
-  output: "export"
+  output: "export",
+  assetPrefix: `/${REPO_NAME}/`,
+  basePath: `/${REPO_NAME}`,
 };
 
 export default nextConfig;
