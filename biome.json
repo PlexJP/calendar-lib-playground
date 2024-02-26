@@ -35,9 +35,6 @@
     }
   },
   "linter": {
-    "ignore": [".next", "node_modules", "out"],
-    "rules": {
-      "all": true
-    }
+    "ignore": [".next", "node_modules", "out"]
   }
 }
