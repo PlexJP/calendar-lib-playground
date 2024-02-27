@@ -4,7 +4,7 @@ import {
   TimelineView as KendoTimelineView,
 } from '@progress/kendo-react-scheduler'
 import { SchedulerProps } from '@progress/kendo-react-scheduler'
-import { displayDate, sampleData } from '../scripts'
+import { displayDate, sampleData } from './scripts'
 
 export const Scheduler = (props: SchedulerProps) => {
   return (
