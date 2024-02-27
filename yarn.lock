@@ -4656,6 +4656,21 @@ cjs-module-lexer@^1.2.3:
   resolved "https://registry.yarnpkg.com/cjs-module-lexer/-/cjs-module-lexer-1.2.3.tgz#6c370ab19f8a3394e318fe682686ec0ac684d107"
   integrity sha512-0TNiGstbQmCFwt4akjjBg5pLRTSyj/PkWQ1ZoO2zntmg9yLqSRxwEa4iCfQLGjqhiqBfOJa7W/E8wfGrTDmlZQ==
 
+cldr-core@^44.1.0:
+  version "44.1.0"
+  resolved "https://registry.yarnpkg.com/cldr-core/-/cldr-core-44.1.0.tgz#f88073389a9dcedf41da881b757f977c063de190"
+  integrity sha512-ssbJaXu3pCkc4YqNC6xHhgleZG7YqnOFZ9laMlJfHOfnspoA9waI4AH54gKB3Fe/+wI4i3cVxKFdCTVGTRw+UA==
+
+cldr-dates-full@^44.1.0:
+  version "44.1.0"
+  resolved "https://registry.yarnpkg.com/cldr-dates-full/-/cldr-dates-full-44.1.0.tgz#029fdf70651fbc07705278d0747f7fdb0fe65a97"
+  integrity sha512-RPSdIBspxf8vnoJ83ldP77IT5HvHMIzPC98dM1D0i64pASlMmdJeAr8qSEV0zE5K5tofW9Iugw6XYZvkwyXT/Q==
+
+cldr-numbers-full@^44.1.0:
+  version "44.1.0"
+  resolved "https://registry.yarnpkg.com/cldr-numbers-full/-/cldr-numbers-full-44.1.0.tgz#6f6fb359c7f5aa65f5b4a9806a502f829b4b94d7"
+  integrity sha512-ygyk8BIRdRUdm5WqiVvCkM7tFuEhGyFXBTFzpnI5055uZV1dcsxakgwki9DMQJ0gKxKmDGy1IqPj2xctX9W9tA==
+
 clean-css@^5.2.2:
   version "5.3.3"
   resolved "https://registry.yarnpkg.com/clean-css/-/clean-css-5.3.3.tgz#b330653cd3bd6b75009cc25c714cae7b93351ccd"

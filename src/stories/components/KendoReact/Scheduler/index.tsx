@@ -4,14 +4,14 @@ import {
   TimelineView as KendoTimelineView,
 } from '@progress/kendo-react-scheduler'
 import { SchedulerProps } from '@progress/kendo-react-scheduler'
-import { displayDate, sampleData } from '../scripts'
+import { displayDate, sampleData } from './scripts'
 
 export const Scheduler = (props: SchedulerProps) => {
   return (
     <KendoScheduler {...props} data={sampleData} defaultDate={displayDate}>
       <KendoTimelineView
         title="Hour-By-Hour"
-        numberOfDays={2}
+        numberOfDays={30}
         columnWidth={100}
         slotDuration={60}
         slotDivisions={1}
