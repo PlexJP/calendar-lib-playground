@@ -30,6 +30,12 @@ jobs:
       - name: Install dependencies
         run: yarn install
 
+      - name: Activate Kendo UI License
+        run: yarn kendo-ui-license activate
+        env:
+          KENDO_UI_LICENSE: ${{ secrets.KENDO_UI_LICENSE }}
+
+
       - name: Build storybook
         run: yarn build-storybook
 

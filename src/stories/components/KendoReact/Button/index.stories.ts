@@ -2,7 +2,7 @@ import { Button } from '@/stories/components/KendoReact/Button'
 import type { Meta, StoryObj } from '@storybook/react'
 
 const meta = {
-  title: 'Kendo/KendoButton',
+  title: 'Kendo/Button',
   component: Button,
   tags: ['autodocs'],
   parameters: {
