@@ -1,5 +1,5 @@
 import { Scheduler } from '@/stories/components/KendoReact/Scheduler'
-import { LocalizationProvider } from '@progress/kendo-react-intl'
+import { IntlProvider, LocalizationProvider } from '@progress/kendo-react-intl'
 import type { Meta, StoryObj } from '@storybook/react'
 
 const meta = {
@@ -13,7 +13,9 @@ const meta = {
     Story => {
       return (
         <LocalizationProvider language="jp">
-          <Story />
+          <IntlProvider locale="ja">
+            <Story />
+          </IntlProvider>
         </LocalizationProvider>
       )
     },
@@ -21,6 +23,7 @@ const meta = {
 } satisfies Meta<typeof Scheduler>
 
 export default meta
+
 type Story = StoryObj<typeof meta>
 
 export const Story_Scheduler: Story = {}

@@ -11,7 +11,7 @@ export const Scheduler = (props: SchedulerProps) => {
     <KendoScheduler {...props} data={sampleData} defaultDate={displayDate}>
       <KendoTimelineView
         title="Hour-By-Hour"
-        numberOfDays={2}
+        numberOfDays={30}
         columnWidth={100}
         slotDuration={60}
         slotDivisions={1}
